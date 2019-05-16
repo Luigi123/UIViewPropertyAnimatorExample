@@ -12,6 +12,7 @@
 		2AF545C9228D41CC004B0238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF545C7228D41CC004B0238 /* Main.storyboard */; };
 		2AF545CB228D41CC004B0238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF545CA228D41CC004B0238 /* Assets.xcassets */; };
 		2AF545CE228D41CC004B0238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF545CC228D41CC004B0238 /* LaunchScreen.storyboard */; };
+		2AF545D6228D41F2004B0238 /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF545D5228D41F2004B0238 /* BottomSheetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2AF545CA228D41CC004B0238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AF545CD228D41CC004B0238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AF545CF228D41CC004B0238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF545D5228D41F2004B0238 /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2AF545C3228D41CC004B0238 /* AppDelegate.swift */,
 				2AF545C5228D41CC004B0238 /* ViewController.swift */,
+				2AF545D5228D41F2004B0238 /* BottomSheetViewController.swift */,
 				2AF545C7228D41CC004B0238 /* Main.storyboard */,
 				2AF545CA228D41CC004B0238 /* Assets.xcassets */,
 				2AF545CC228D41CC004B0238 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF545C6228D41CC004B0238 /* ViewController.swift in Sources */,
+				2AF545D6228D41F2004B0238 /* BottomSheetViewController.swift in Sources */,
 				2AF545C4228D41CC004B0238 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
